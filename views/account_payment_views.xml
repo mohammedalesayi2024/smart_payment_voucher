@@ -4,13 +4,8 @@
     <record id="view_account_payment_form_voucher"
             model="ir.ui.view">
 
-        <field name="name">
-            account.payment.form.voucher
-        </field>
-
-        <field name="model">
-            account.payment
-        </field>
+        <field name="name">account.payment.form.voucher</field>
+        <field name="model">account.payment</field>
 
         <field name="inherit_id"
                ref="account.view_account_payment_form"/>
