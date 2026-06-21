@@ -2,7 +2,7 @@ from odoo import fields, models
 
 
 class ResConfigSettings(models.TransientModel):
-    _inherit = "res.config.settinjgs"
+    _inherit = "res.config.settings"
 
     voucher_footer = fields.Text(
         related="company_id.voucher_footer",
